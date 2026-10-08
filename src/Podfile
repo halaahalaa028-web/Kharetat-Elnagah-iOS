@@ -1,6 +1,8 @@
 ﻿platform :ios, '15.0'
 
 target 'KharetatElnagah' do
+  pod 'FirebaseCore'
+  pod 'FirebaseMessaging'
 end
 
 post_install do |installer|
