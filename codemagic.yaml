@@ -15,6 +15,7 @@
       - name: Build iOS app
         script: |
           cd src
+          pod install
           xcodebuild \
             -project *.xcodeproj \
             -scheme "خريطة النجاة" \
@@ -29,5 +30,6 @@
     publishing:
       app_store_connect:
         auth: integration
+
 
 
