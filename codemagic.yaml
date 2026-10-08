@@ -14,8 +14,7 @@
     scripts:
       - name: Build iOS app
         script: |
-          cd src
-          pod install
+          cd src`n          pod install --repo-update
           xcodebuild \
             -project *.xcodeproj \
             -scheme "KharetatElnagah" \
@@ -30,6 +29,7 @@
     publishing:
       app_store_connect:
         auth: integration
+
 
 
 
