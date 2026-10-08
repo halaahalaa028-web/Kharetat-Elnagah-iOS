@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25D3517F267A48E0002E5DC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25D3517E267A48E0002E5DC0 /* GoogleService-Info.plist */; };
 		595F23A525CEFBFE0053416C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F239A25CEFBFD0053416C /* Settings.swift */; };
-		595F23A625CEFBFE0053416C /* Entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 595F239B25CEFBFD0053416C /* Entitlements */; };
 		595F23A725CEFBFE0053416C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595F239C25CEFBFD0053416C /* Assets.xcassets */; };
 		595F23A825CEFBFE0053416C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F239D25CEFBFD0053416C /* SceneDelegate.swift */; };
 		595F23AA25CEFBFE0053416C /* PushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F239F25CEFBFE0053416C /* PushNotifications.swift */; };
@@ -19,13 +17,13 @@
 		595F23AF25CEFBFE0053416C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F23A425CEFBFE0053416C /* WebView.swift */; };
 		CDC0FE292388222C002C8D56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC0FE252388222B002C8D56 /* Main.storyboard */; };
 		CDC0FE2A2388222C002C8D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC0FE272388222B002C8D56 /* LaunchScreen.storyboard */; };
-		E1E260C850014D6B34B487B0 /* Pods_Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9D7FFB2FBE6EEBCA807B6A /* Pods_Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.framework */; };
+		E1E260C850014D6B34B487B0 /* Pods_Ã˜Â®Ã˜Â±Ã™Å Ã˜Â·Ã˜Â©Ã˜Â§Ã™â€žÃ™â€ Ã˜Â¬Ã˜Â§Ã˜Â©.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9D7FFB2FBE6EEBCA807B6A /* Pods_Ã˜Â®Ã˜Â±Ã™Å Ã˜Â·Ã˜Â©Ã˜Â§Ã™â€žÃ™â€ Ã˜Â¬Ã˜Â§Ã˜Â©.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		25D3517E267A48E0002E5DC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "KharetatElnagah/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4C1C2162A8048FDF52B2A9D0 /* Pods-KharetatElnagah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KharetatElnagah.release.xcconfig"; path = "Target Support Files/Pods-KharetatElnagah/Pods-KharetatElnagah.release.xcconfig"; sourceTree = "<group>"; };
-		59333BAA25CFF706003392A4 /* Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59333BAA25CFF706003392A4 /* Ã˜Â®Ã˜Â±Ã™Å Ã˜Â·Ã˜Â©Ã˜Â§Ã™â€žÃ™â€ Ã˜Â¬Ã˜Â§Ã˜Â©.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ã˜Â®Ã˜Â±Ã™Å Ã˜Â·Ã˜Â©Ã˜Â§Ã™â€žÃ™â€ Ã˜Â¬Ã˜Â§Ã˜Â©.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		595F239A25CEFBFD0053416C /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = "KharetatElnagah/Settings.swift"; sourceTree = "<group>"; };
 		595F239B25CEFBFD0053416C /* Entitlements */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Entitlements; path = "KharetatElnagah/Entitlements"; sourceTree = "<group>"; };
 		595F239C25CEFBFD0053416C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "KharetatElnagah/Assets.xcassets"; sourceTree = "<group>"; };
@@ -36,7 +34,7 @@
 		595F23A225CEFBFE0053416C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "KharetatElnagah/AppDelegate.swift"; sourceTree = "<group>"; };
 		595F23A325CEFBFE0053416C /* Printer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Printer.swift; path = "KharetatElnagah/Printer.swift"; sourceTree = "<group>"; };
 		595F23A425CEFBFE0053416C /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = "KharetatElnagah/WebView.swift"; sourceTree = "<group>"; };
-		BE9D7FFB2FBE6EEBCA807B6A /* Pods_Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9D7FFB2FBE6EEBCA807B6A /* Pods_Ã˜Â®Ã˜Â±Ã™Å Ã˜Â·Ã˜Â©Ã˜Â§Ã™â€žÃ™â€ Ã˜Â¬Ã˜Â§Ã˜Â©.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Ã˜Â®Ã˜Â±Ã™Å Ã˜Â·Ã˜Â©Ã˜Â§Ã™â€žÃ™â€ Ã˜Â¬Ã˜Â§Ã˜Â©.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE8E5C625AE96C07F8AADED /* Pods-KharetatElnagah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KharetatElnagah.debug.xcconfig"; path = "Target Support Files/Pods-KharetatElnagah/Pods-KharetatElnagah.debug.xcconfig"; sourceTree = "<group>"; };
 		CDC0FE262388222B002C8D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "KharetatElnagah/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		CDC0FE282388222B002C8D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "KharetatElnagah/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
@@ -47,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1E260C850014D6B34B487B0 /* Pods_Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.framework in Frameworks */,
+				E1E260C850014D6B34B487B0 /* Pods_Ã˜Â®Ã˜Â±Ã™Å Ã˜Â·Ã˜Â©Ã˜Â§Ã™â€žÃ™â€ Ã˜Â¬Ã˜Â§Ã˜Â©.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +64,7 @@
 		90E46E861CB86F5FAF46BED9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BE9D7FFB2FBE6EEBCA807B6A /* Pods_Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.framework */,
+				BE9D7FFB2FBE6EEBCA807B6A /* Pods_Ã˜Â®Ã˜Â±Ã™Å Ã˜Â·Ã˜Â©Ã˜Â§Ã™â€žÃ™â€ Ã˜Â¬Ã˜Â§Ã˜Â©.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -89,7 +87,7 @@
 				595F23A425CEFBFE0053416C /* WebView.swift */,
 				30FCACC6A7BF53CD6D9CF6C0 /* Pods */,
 				90E46E861CB86F5FAF46BED9 /* Frameworks */,
-				59333BAA25CFF706003392A4 /* Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.app */,
+				59333BAA25CFF706003392A4 /* Ã˜Â®Ã˜Â±Ã™Å Ã˜Â·Ã˜Â©Ã˜Â§Ã™â€žÃ™â€ Ã˜Â¬Ã˜Â§Ã˜Â©.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,7 +110,7 @@
 			);
 			name = "KharetatElnagah";
 			productName = "KharetatElnagah";
-			productReference = 59333BAA25CFF706003392A4 /* Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.app */;
+			productReference = 59333BAA25CFF706003392A4 /* Ã˜Â®Ã˜Â±Ã™Å Ã˜Â·Ã˜Â©Ã˜Â§Ã™â€žÃ™â€ Ã˜Â¬Ã˜Â§Ã˜Â©.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -154,11 +152,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				595F23A625CEFBFE0053416C /* Entitlements in Resources */,
 				CDC0FE292388222C002C8D56 /* Main.storyboard in Resources */,
 				CDC0FE2A2388222C002C8D56 /* LaunchScreen.storyboard in Resources */,
 				595F23A725CEFBFE0053416C /* Assets.xcassets in Resources */,
-				25D3517F267A48E0002E5DC0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = NO;
-				CODE_SIGN_ENTITLEMENTS = "خريطة النجاة/Entitlements/Entitlements.plist";
+				CODE_SIGN_ENTITLEMENTS = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/Entitlements/Entitlements.plist";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -383,7 +379,7 @@
 				MARKETING_VERSION = 1;
 				CURRENT_PROJECT_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.elshroq.sheetvault";
-				PRODUCT_NAME = "Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©";
+				PRODUCT_NAME = "Ã˜Â®Ã˜Â±Ã™Å Ã˜Â·Ã˜Â©Ã˜Â§Ã™â€žÃ™â€ Ã˜Â¬Ã˜Â§Ã˜Â©";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -398,7 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = NO;
-				CODE_SIGN_ENTITLEMENTS = "خريطة النجاة/Entitlements/Entitlements.plist";
+				CODE_SIGN_ENTITLEMENTS = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/Entitlements/Entitlements.plist";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 26P3HVTQKC;
@@ -411,7 +407,7 @@
 				MARKETING_VERSION = 1;
 				CURRENT_PROJECT_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.elshroq.sheetvault";
-				PRODUCT_NAME = "Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©";
+				PRODUCT_NAME = "Ã˜Â®Ã˜Â±Ã™Å Ã˜Â·Ã˜Â©Ã˜Â§Ã™â€žÃ™â€ Ã˜Â¬Ã˜Â§Ã˜Â©";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
 				SWIFT_VERSION = 5.0;
