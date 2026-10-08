@@ -3,7 +3,7 @@ workflows:
     name: Kharetat Elnagah iOS
 
     integrations:
-      app_store_connect: codemagic
+      app_store_connect: itaaleem
 
     environment:
       xcode: latest
@@ -29,3 +29,4 @@ workflows:
     publishing:
       app_store_connect:
         auth: integration
+
