@@ -18,7 +18,7 @@
           pod install
           xcodebuild \
             -project *.xcodeproj \
-            -scheme "خريطة النجاة" \
+            -scheme "KharetatElnagah" \
             -configuration Release \
             -sdk iphoneos \
             -archivePath ../build/KharetatElnagah.xcarchive \
@@ -30,6 +30,7 @@
     publishing:
       app_store_connect:
         auth: integration
+
 
 
 
