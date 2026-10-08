@@ -2,6 +2,9 @@ workflows:
   ios-workflow:
     name: Kharetat Elnagah iOS
 
+    integrations:
+      app_store_connect: codemagic
+
     environment:
       xcode: latest
       ios_signing:
