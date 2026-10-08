@@ -1,4 +1,4 @@
-// !$*UTF8*$!
+﻿// !$*UTF8*$!
 {
 	archiveVersion = 1;
 	classes = {
@@ -19,27 +19,27 @@
 		595F23AF25CEFBFE0053416C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F23A425CEFBFE0053416C /* WebView.swift */; };
 		CDC0FE292388222C002C8D56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC0FE252388222B002C8D56 /* Main.storyboard */; };
 		CDC0FE2A2388222C002C8D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC0FE272388222B002C8D56 /* LaunchScreen.storyboard */; };
-		E1E260C850014D6B34B487B0 /* Pods_خريطةالنجاة.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9D7FFB2FBE6EEBCA807B6A /* Pods_خريطةالنجاة.framework */; };
+		E1E260C850014D6B34B487B0 /* Pods_Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9D7FFB2FBE6EEBCA807B6A /* Pods_Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		25D3517E267A48E0002E5DC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "خريطة النجاة/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		4C1C2162A8048FDF52B2A9D0 /* Pods-خريطة النجاة.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-خريطة النجاة.release.xcconfig"; path = "Target Support Files/Pods-خريطة النجاة/Pods-خريطة النجاة.release.xcconfig"; sourceTree = "<group>"; };
-		59333BAA25CFF706003392A4 /* خريطةالنجاة.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "خريطةالنجاة.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		595F239A25CEFBFD0053416C /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = "خريطة النجاة/Settings.swift"; sourceTree = "<group>"; };
-		595F239B25CEFBFD0053416C /* Entitlements */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Entitlements; path = "خريطة النجاة/Entitlements"; sourceTree = "<group>"; };
-		595F239C25CEFBFD0053416C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "خريطة النجاة/Assets.xcassets"; sourceTree = "<group>"; };
-		595F239D25CEFBFD0053416C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "خريطة النجاة/SceneDelegate.swift"; sourceTree = "<group>"; };
-		595F239F25CEFBFE0053416C /* PushNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushNotifications.swift; path = "خريطة النجاة/PushNotifications.swift"; sourceTree = "<group>"; };
-		595F23A025CEFBFE0053416C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "خريطة النجاة/Info.plist"; sourceTree = "<group>"; };
-		595F23A125CEFBFE0053416C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "خريطة النجاة/ViewController.swift"; sourceTree = "<group>"; };
-		595F23A225CEFBFE0053416C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "خريطة النجاة/AppDelegate.swift"; sourceTree = "<group>"; };
-		595F23A325CEFBFE0053416C /* Printer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Printer.swift; path = "خريطة النجاة/Printer.swift"; sourceTree = "<group>"; };
-		595F23A425CEFBFE0053416C /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = "خريطة النجاة/WebView.swift"; sourceTree = "<group>"; };
-		BE9D7FFB2FBE6EEBCA807B6A /* Pods_خريطةالنجاة.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_خريطةالنجاة.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEE8E5C625AE96C07F8AADED /* Pods-خريطة النجاة.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-خريطة النجاة.debug.xcconfig"; path = "Target Support Files/Pods-خريطة النجاة/Pods-خريطة النجاة.debug.xcconfig"; sourceTree = "<group>"; };
-		CDC0FE262388222B002C8D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "خريطة النجاة/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
-		CDC0FE282388222B002C8D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "خريطة النجاة/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		25D3517E267A48E0002E5DC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4C1C2162A8048FDF52B2A9D0 /* Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©.release.xcconfig"; path = "Target Support Files/Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©.release.xcconfig"; sourceTree = "<group>"; };
+		59333BAA25CFF706003392A4 /* Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		595F239A25CEFBFD0053416C /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/Settings.swift"; sourceTree = "<group>"; };
+		595F239B25CEFBFD0053416C /* Entitlements */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Entitlements; path = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/Entitlements"; sourceTree = "<group>"; };
+		595F239C25CEFBFD0053416C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/Assets.xcassets"; sourceTree = "<group>"; };
+		595F239D25CEFBFD0053416C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/SceneDelegate.swift"; sourceTree = "<group>"; };
+		595F239F25CEFBFE0053416C /* PushNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushNotifications.swift; path = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/PushNotifications.swift"; sourceTree = "<group>"; };
+		595F23A025CEFBFE0053416C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/Info.plist"; sourceTree = "<group>"; };
+		595F23A125CEFBFE0053416C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/ViewController.swift"; sourceTree = "<group>"; };
+		595F23A225CEFBFE0053416C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/AppDelegate.swift"; sourceTree = "<group>"; };
+		595F23A325CEFBFE0053416C /* Printer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Printer.swift; path = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/Printer.swift"; sourceTree = "<group>"; };
+		595F23A425CEFBFE0053416C /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/WebView.swift"; sourceTree = "<group>"; };
+		BE9D7FFB2FBE6EEBCA807B6A /* Pods_Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE8E5C625AE96C07F8AADED /* Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©.debug.xcconfig"; path = "Target Support Files/Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©.debug.xcconfig"; sourceTree = "<group>"; };
+		CDC0FE262388222B002C8D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		CDC0FE282388222B002C8D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1E260C850014D6B34B487B0 /* Pods_خريطةالنجاة.framework in Frameworks */,
+				E1E260C850014D6B34B487B0 /* Pods_Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,8 +57,8 @@
 		30FCACC6A7BF53CD6D9CF6C0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BEE8E5C625AE96C07F8AADED /* Pods-خريطة النجاة.debug.xcconfig */,
-				4C1C2162A8048FDF52B2A9D0 /* Pods-خريطة النجاة.release.xcconfig */,
+				BEE8E5C625AE96C07F8AADED /* Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©.debug.xcconfig */,
+				4C1C2162A8048FDF52B2A9D0 /* Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -66,7 +66,7 @@
 		90E46E861CB86F5FAF46BED9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BE9D7FFB2FBE6EEBCA807B6A /* Pods_خريطةالنجاة.framework */,
+				BE9D7FFB2FBE6EEBCA807B6A /* Pods_Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -89,16 +89,16 @@
 				595F23A425CEFBFE0053416C /* WebView.swift */,
 				30FCACC6A7BF53CD6D9CF6C0 /* Pods */,
 				90E46E861CB86F5FAF46BED9 /* Frameworks */,
-				59333BAA25CFF706003392A4 /* خريطةالنجاة.app */,
+				59333BAA25CFF706003392A4 /* Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.app */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD89F888237E9D9200C436A1 /* خريطة النجاة */ = {
+		CD89F888237E9D9200C436A1 /* Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø© */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD89F89D237E9D9300C436A1 /* Build configuration list for PBXNativeTarget "خريطة النجاة" */;
+			buildConfigurationList = CD89F89D237E9D9300C436A1 /* Build configuration list for PBXNativeTarget "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©" */;
 			buildPhases = (
 				E07DC62CDB59F65280F7057D /* [CP] Check Pods Manifest.lock */,
 				CD89F885237E9D9200C436A1 /* Sources */,
@@ -110,9 +110,9 @@
 			);
 			dependencies = (
 			);
-			name = "خريطة النجاة";
-			productName = "خريطة النجاة";
-			productReference = 59333BAA25CFF706003392A4 /* خريطةالنجاة.app */;
+			name = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©";
+			productName = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©";
+			productReference = 59333BAA25CFF706003392A4 /* Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CD89F884237E9D9200C436A1 /* Build configuration list for PBXProject "خريطة النجاة" */;
+			buildConfigurationList = CD89F884237E9D9200C436A1 /* Build configuration list for PBXProject "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©" */;
 			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD89F888237E9D9200C436A1 /* خريطة النجاة */,
+				CD89F888237E9D9200C436A1 /* Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø© */,
 			);
 		};
 /* End PBXProject section */
@@ -171,15 +171,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-خريطة النجاة/Pods-خريطة النجاة-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-خريطة النجاة/Pods-خريطة النجاة-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-خريطة النجاة/Pods-خريطة النجاة-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E07DC62CDB59F65280F7057D /* [CP] Check Pods Manifest.lock */ = {
@@ -197,7 +197,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-خريطة النجاة-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -365,16 +365,16 @@
 		};
 		CD89F89E237E9D9300C436A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEE8E5C625AE96C07F8AADED /* Pods-خريطة النجاة.debug.xcconfig */;
+			baseConfigurationReference = BEE8E5C625AE96C07F8AADED /* Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = NO;
-				CODE_SIGN_ENTITLEMENTS = "خريطة النجاة/Entitlements/Entitlements.plist";
+				CODE_SIGN_ENTITLEMENTS = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/Entitlements/Entitlements.plist";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "خريطة النجاة/Info.plist";
+				DEVELOPMENT_TEAM = 26P3HVTQKC;
+				INFOPLIST_FILE = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -383,7 +383,7 @@
 				MARKETING_VERSION = 1;
 				CURRENT_PROJECT_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.elshroq.sheetvault";
-				PRODUCT_NAME = "خريطةالنجاة";
+				PRODUCT_NAME = "Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -394,15 +394,15 @@
 		};
 		CD89F89F237E9D9300C436A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C1C2162A8048FDF52B2A9D0 /* Pods-خريطة النجاة.release.xcconfig */;
+			baseConfigurationReference = 4C1C2162A8048FDF52B2A9D0 /* Pods-Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = NO;
-				CODE_SIGN_ENTITLEMENTS = "خريطة النجاة/Entitlements/Entitlements.plist";
+				CODE_SIGN_ENTITLEMENTS = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/Entitlements/Entitlements.plist";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "خريطة النجاة/Info.plist";
+				DEVELOPMENT_TEAM = 26P3HVTQKC;
+				INFOPLIST_FILE = "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -411,7 +411,7 @@
 				MARKETING_VERSION = 1;
 				CURRENT_PROJECT_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.elshroq.sheetvault";
-				PRODUCT_NAME = "خريطةالنجاة";
+				PRODUCT_NAME = "Ø®Ø±ÙŠØ·Ø©Ø§Ù„Ù†Ø¬Ø§Ø©";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
 				SWIFT_VERSION = 5.0;
@@ -422,7 +422,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD89F884237E9D9200C436A1 /* Build configuration list for PBXProject "خريطة النجاة" */ = {
+		CD89F884237E9D9200C436A1 /* Build configuration list for PBXProject "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD89F89B237E9D9300C436A1 /* Debug */,
@@ -431,7 +431,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD89F89D237E9D9300C436A1 /* Build configuration list for PBXNativeTarget "خريطة النجاة" */ = {
+		CD89F89D237E9D9300C436A1 /* Build configuration list for PBXNativeTarget "Ø®Ø±ÙŠØ·Ø© Ø§Ù„Ù†Ø¬Ø§Ø©" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD89F89E237E9D9300C436A1 /* Debug */,
@@ -444,3 +444,4 @@
 	};
 	rootObject = CD89F881237E9D9200C436A1 /* Project object */;
 }
+
