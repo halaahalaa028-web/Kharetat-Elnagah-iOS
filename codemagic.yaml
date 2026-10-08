@@ -1,4 +1,4 @@
-﻿workflows:
+workflows:
   ios-workflow:
     name: Kharetat Elnagah iOS
 
@@ -14,7 +14,8 @@
     scripts:
       - name: Build iOS app
         script: |
-          cd src`n          pod install --repo-update
+          cd src
+          pod install --repo-update
           xcodebuild \
             -project *.xcodeproj \
             -scheme "KharetatElnagah" \
@@ -29,8 +30,3 @@
     publishing:
       app_store_connect:
         auth: integration
-
-
-
-
-
