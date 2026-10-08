@@ -1,4 +1,4 @@
-workflows:
+﻿workflows:
   ios-workflow:
     name: Kharetat Elnagah iOS
 
@@ -12,16 +12,29 @@ workflows:
         bundle_identifier: com.elshroq.sheetvault
 
     scripts:
-      - name: Build iOS app
+      - name: Install CocoaPods dependencies
         script: |
           cd src
           pod install --repo-update
+
+      - name: Set up code signing
+        script: |
+          cd src
+          xcode-project use-profiles
+
+      - name: Build iOS app
+        script: |
+          cd src
           xcodebuild \
-            -project *.xcodeproj \
+            -project "*.xcodeproj" \
             -scheme "KharetatElnagah" \
             -configuration Release \
             -sdk iphoneos \
             -archivePath ../build/KharetatElnagah.xcarchive \
+            CODE_SIGN_STYLE=Manual \
+            DEVELOPMENT_TEAM=26P3HVTQKC \
+            CODE_SIGN_IDENTITY="Apple Distribution" \
+            PROVISIONING_PROFILE_SPECIFIER="Kharetat Elnagah App Store" \
             archive
 
     artifacts:
