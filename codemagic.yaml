@@ -1,4 +1,4 @@
-workflows:
+﻿workflows:
   ios-workflow:
     name: Kharetat Elnagah iOS
 
@@ -17,7 +17,7 @@ workflows:
           cd src
           xcodebuild \
             -project *.xcodeproj \
-            -scheme "KharetatElnagah" \
+            -scheme "خريطة النجاة" \
             -configuration Release \
             -sdk iphoneos \
             -archivePath ../build/KharetatElnagah.xcarchive \
@@ -29,4 +29,5 @@ workflows:
     publishing:
       app_store_connect:
         auth: integration
+
 
