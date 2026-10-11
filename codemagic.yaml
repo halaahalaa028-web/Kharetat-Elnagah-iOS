@@ -14,28 +14,25 @@ workflows:
     scripts:
       - name: Install CocoaPods
         script: |
-          cd src
+          cd "$CM_BUILD_DIR/src"
           pod install --repo-update
 
       - name: Apply signing profiles
         script: |
-          cd src
+          cd "$CM_BUILD_DIR/src"
           xcode-project use-profiles
 
-      - name: Build and archive
+      - name: Build IPA for distribution
         script: |
-          cd src
-          xcodebuild \
-            -workspace "خريطة النجاة.xcworkspace" \
-            -scheme "KharetatElnagah" \
-            -configuration Release \
-            -sdk iphoneos \
-            -archivePath "$CM_BUILD_DIR/KharetatElnagah.xcarchive" \
-            SWIFT_ENABLE_EXPLICIT_MODULES=NO \
-            archive
+          cd "$CM_BUILD_DIR"
+          xcode-project build-ipa \
+            --workspace "$CM_BUILD_DIR/src/خريطة النجاة.xcworkspace" \
+            --scheme "KharetatElnagah"
 
     artifacts:
-      - $CM_BUILD_DIR/KharetatElnagah.xcarchive
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
 
     publishing:
       app_store_connect:
