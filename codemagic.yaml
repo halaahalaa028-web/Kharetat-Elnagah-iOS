@@ -31,6 +31,7 @@ workflows:
             -configuration Release \
             -sdk iphoneos \
             -archivePath "$CM_BUILD_DIR/KharetatElnagah.xcarchive" \
+            SWIFT_ENABLE_EXPLICIT_MODULES=NO \
             archive
 
     artifacts:
