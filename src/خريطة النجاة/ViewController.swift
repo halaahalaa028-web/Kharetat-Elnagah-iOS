@@ -1,4 +1,4 @@
-```swift
+
 import UIKit
 import WebKit
 
@@ -300,4 +300,4 @@ extension ViewController: WKScriptMessageHandler {
         }
     }
 }
-```
+
