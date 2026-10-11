@@ -1,4 +1,3 @@
-
 workflows:
   ios-workflow:
     name: Kharetat Elnagah iOS
@@ -31,11 +30,11 @@ workflows:
             -scheme "KharetatElnagah" \
             -configuration Release \
             -sdk iphoneos \
-            -archivePath "../build/KharetatElnagah.xcarchive" \
+            -archivePath "$CM_BUILD_DIR/KharetatElnagah.xcarchive" \
             archive
 
     artifacts:
-      - build/KharetatElnagah.xcarchive/**
+      - $CM_BUILD_DIR/KharetatElnagah.xcarchive
 
     publishing:
       app_store_connect:
