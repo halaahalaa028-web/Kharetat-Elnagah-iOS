@@ -1,4 +1,4 @@
-
+```swift
 import UIKit
 import WebKit
 
@@ -24,7 +24,6 @@ class ViewController: UIViewController, WKNavigationDelegate, UIDocumentInteract
 
     var htmlIsLoaded = false
     private var loadingMode = LoadingMode.defaultCachePolicy
-
     private var themeObservation: NSKeyValueObservation?
     var currentWebViewTheme: UIUserInterfaceStyle = .unspecified
 
@@ -55,20 +54,20 @@ class ViewController: UIViewController, WKNavigationDelegate, UIDocumentInteract
 
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        webView.frame = calcWebviewFrame(webviewView: webviewView, toolbarView: nil)
+        KharetatElnagah.webView.frame = calcWebviewFrame(webviewView: webviewView, toolbarView: nil)
     }
 
     @objc func keyboardWillHide(_ notification: NSNotification) {
-        webView.setNeedsLayout()
+        KharetatElnagah.webView.setNeedsLayout()
     }
 
     func initWebView() {
-        webView = createWebView(container: webviewView, WKSMH: self, WKND: self, NSO: self, VC: self)
-        webviewView.addSubview(webView)
+        KharetatElnagah.webView = createWebView(container: webviewView, WKSMH: self, WKND: self, NSO: self, VC: self)
+        webviewView.addSubview(KharetatElnagah.webView)
 
-        webView.uiDelegate = self
+        KharetatElnagah.webView.uiDelegate = self
 
-        webView.addObserver(
+        KharetatElnagah.webView.addObserver(
             self,
             forKeyPath: #keyPath(WKWebView.estimatedProgress),
             options: .new,
@@ -78,14 +77,14 @@ class ViewController: UIViewController, WKNavigationDelegate, UIDocumentInteract
         if pullToRefresh {
             let refreshControl = UIRefreshControl()
             refreshControl.addTarget(self, action: #selector(refreshWebView(_:)), for: .valueChanged)
-            webView.scrollView.addSubview(refreshControl)
-            webView.scrollView.bounces = true
+            KharetatElnagah.webView.scrollView.addSubview(refreshControl)
+            KharetatElnagah.webView.scrollView.bounces = true
         }
 
         if #available(iOS 15.0, *), adaptiveUIStyle {
-            themeObservation = webView.observe(\.themeColor) { [unowned self] webView, _ in
-                let backgroundColor = webView.underPageBackgroundColor
-                let themeColor = webView.themeColor
+            themeObservation = KharetatElnagah.webView.observe(\.themeColor) { [unowned self] observedWebView, _ in
+                let backgroundColor = observedWebView.underPageBackgroundColor
+                let themeColor = observedWebView.themeColor
                 currentWebViewTheme = themeColor?.isLight() ?? backgroundColor?.isLight() ?? true ? .light : .dark
                 self.overrideUIStyle()
                 view.backgroundColor = themeColor ?? backgroundColor
@@ -94,7 +93,7 @@ class ViewController: UIViewController, WKNavigationDelegate, UIDocumentInteract
     }
 
     @objc func refreshWebView(_ sender: UIRefreshControl) {
-        webView?.reload()
+        KharetatElnagah.webView?.reload()
         sender.endRefreshing()
     }
 
@@ -128,12 +127,11 @@ class ViewController: UIViewController, WKNavigationDelegate, UIDocumentInteract
 
     func overrideUIStyle(toDefault: Bool = false) {
         if #available(iOS 15.0, *), adaptiveUIStyle {
-            if (((htmlIsLoaded && !webView.isHidden) || toDefault) && self.currentWebViewTheme != .unspecified) {
-                UIApplication
-                    .shared
-                    .connectedScenes
+            if (((htmlIsLoaded && !KharetatElnagah.webView.isHidden) || toDefault) && currentWebViewTheme != .unspecified) {
+                UIApplication.shared.connectedScenes
                     .flatMap { ($0 as? UIWindowScene)?.windows ?? [] }
-                    .first { $0.isKeyWindow }?.overrideUserInterfaceStyle = toDefault ? .unspecified : self.currentWebViewTheme
+                    .first { $0.isKeyWindow }?
+                    .overrideUserInterfaceStyle = toDefault ? .unspecified : currentWebViewTheme
             }
         }
     }
@@ -144,7 +142,7 @@ class ViewController: UIViewController, WKNavigationDelegate, UIDocumentInteract
     }
 
     @objc func loadRootUrl(cachePolicy: NSURLRequest.CachePolicy = .useProtocolCachePolicy) {
-        webView.load(
+        KharetatElnagah.webView.load(
             URLRequest(
                 url: SceneDelegate.universalLinkToLaunch ?? SceneDelegate.shortcutLinkToLaunch ?? rootUrl,
                 cachePolicy: cachePolicy
@@ -152,7 +150,7 @@ class ViewController: UIViewController, WKNavigationDelegate, UIDocumentInteract
         )
     }
 
-    func reloadWebview(loadingMode: LoadingMode = LoadingMode.defaultCachePolicy) {
+    func reloadWebview(loadingMode: LoadingMode = .defaultCachePolicy) {
         switch loadingMode {
         case .defaultCachePolicy:
             loadRootUrl(cachePolicy: .useProtocolCachePolicy)
@@ -165,12 +163,11 @@ class ViewController: UIViewController, WKNavigationDelegate, UIDocumentInteract
 
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         htmlIsLoaded = true
-
-        self.setProgress(1.0, true)
-        self.animateConnectionProblem(false)
+        setProgress(1.0, true)
+        animateConnectionProblem(false)
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
-            webView.isHidden = false
+            KharetatElnagah.webView.isHidden = false
             self.loadingView.isHidden = true
             self.setProgress(0.0, false)
             self.overrideUIStyle()
@@ -183,7 +180,7 @@ class ViewController: UIViewController, WKNavigationDelegate, UIDocumentInteract
         if (error as NSError)._code == -999 { return }
         if (error as NSError)._code == 102 { return }
 
-        self.overrideUIStyle(toDefault: true)
+        overrideUIStyle(toDefault: true)
         webView.isHidden = true
         loadingView.isHidden = false
 
@@ -211,27 +208,28 @@ class ViewController: UIViewController, WKNavigationDelegate, UIDocumentInteract
         context: UnsafeMutableRawPointer?
     ) {
         if keyPath == #keyPath(WKWebView.estimatedProgress),
-           webView.isLoading,
-           !self.loadingView.isHidden,
-           !self.htmlIsLoaded {
+           KharetatElnagah.webView.isLoading,
+           !loadingView.isHidden,
+           !htmlIsLoaded {
 
-            var progress = Float(webView.estimatedProgress)
+            var progress = Float(KharetatElnagah.webView.estimatedProgress)
 
             if progress >= 0.8 { progress = 1.0 }
-            if progress >= 0.3 { self.animateConnectionProblem(false) }
+            if progress >= 0.3 { animateConnectionProblem(false) }
 
-            self.setProgress(progress, true)
+            setProgress(progress, true)
         }
     }
 
     func setProgress(_ progress: Float, _ animated: Bool) {
-        self.progressView.setProgress(progress, animated: animated)
+        progressView.setProgress(progress, animated: animated)
     }
 
     func animateConnectionProblem(_ show: Bool) {
         if show {
-            self.connectionProblemView.isHidden = false
-            self.connectionProblemView.alpha = 0
+            connectionProblemView.isHidden = false
+            connectionProblemView.alpha = 0
+
             UIView.animate(withDuration: 0.7, delay: 0, options: [.repeat, .autoreverse], animations: {
                 self.connectionProblemView.alpha = 1
             })
@@ -246,7 +244,10 @@ class ViewController: UIViewController, WKNavigationDelegate, UIDocumentInteract
     }
 
     deinit {
-        webView?.removeObserver(self, forKeyPath: #keyPath(WKWebView.estimatedProgress))
+        KharetatElnagah.webView?.removeObserver(
+            self,
+            forKeyPath: #keyPath(WKWebView.estimatedProgress)
+        )
     }
 }
 
@@ -279,19 +280,24 @@ extension UIColor {
 extension ViewController: WKScriptMessageHandler {
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
         if message.name == "print" {
-            printView(webView: webView)
+            printView(webView: KharetatElnagah.webView)
         }
+
         if message.name == "push-subscribe" {
             handleSubscribeTouch(message: message)
         }
+
         if message.name == "push-permission-request" {
             handlePushPermission()
         }
+
         if message.name == "push-permission-state" {
             handlePushState()
         }
+
         if message.name == "push-token" {
             handleFCMToken()
         }
     }
 }
+```
