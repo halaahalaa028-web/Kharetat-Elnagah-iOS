@@ -1,4 +1,5 @@
-﻿workflows:
+
+workflows:
   ios-workflow:
     name: Kharetat Elnagah iOS
 
@@ -6,7 +7,7 @@
       app_store_connect: itaaleem
 
     environment:
-      xcode: latest
+      xcode: 26.5
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.elshroq.sheetvault
