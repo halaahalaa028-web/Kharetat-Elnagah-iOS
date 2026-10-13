@@ -1,3 +1,4 @@
+
 workflows:
   ios-workflow:
     name: Kharetat Elnagah iOS
@@ -21,6 +22,11 @@ workflows:
         script: |
           cd "$CM_BUILD_DIR/src"
           xcode-project use-profiles
+
+      - name: Set Build Number
+        script: |
+          cd "$CM_BUILD_DIR/src"
+          agvtool new-version -all 2
 
       - name: Build IPA for distribution
         script: |
